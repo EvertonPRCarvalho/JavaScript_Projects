@@ -1,0 +1,116 @@
+.body{
+    background-color: rgb(32, 32, 32);
+    color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+/*
+.navbar{
+    background-color: antiquewhite;
+
+    width: 100%;
+    height:90px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 32px;
+    padding-top: 15px;
+    padding-left: 60px;
+    margin: 5px;
+}
+
+.menu{
+    width: 200px;
+    height: 90px;
+
+    font-size: 21px;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+
+.menu ul{
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 15vh 80vh 10vh;
+    grid-gap: 20px 10px;
+    max-width: 100%;
+
+
+   
+}
+
+header{
+    display: flex;
+
+    background-color: #151515;
+    
+    grid-column: 1/4;
+    grid-row: 1;
+    
+}
+.logo{
+    font-size: 32px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+header ul{
+    font-size: 24px;
+    list-style: none;
+    display: flex;
+    padding-left: 60%; 
+}
+header ul li{
+    padding-top: 15px;
+    padding-left: 30px;
+    
+}
+header ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+section{
+    background-color: antiquewhite;
+    grid-column: 2;
+    grid-row: 2;
+}
+.workspace{
+    padding: 30px;
+    color: black;
+}
+
+.userspace{
+    text-align: center;
+    color: #151515;
+    font-size: 21px;
+    max-width: 100%;
+    height: 200px;
+}
+
+.userspace .inputBinario{
+    width: 300px;
+    height: 20px;
+}
+
+.btn-conversion {
+    background-color: blueviolet;
+    border-radius: 0px;
+    text-decoration: none;
+
+    width: 120px;
+    height: 30px;
+}
